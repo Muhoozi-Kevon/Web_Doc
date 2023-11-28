@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.magnify-heading {
+    font-size: 36px;
+    letter-spacing: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.magnify-heading:hover {
+    transform: scale(1.2);
+}

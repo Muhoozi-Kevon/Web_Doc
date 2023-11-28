@@ -1,0 +1,45 @@
+ 
+        /* Create a flex container to hold the content holders */
+        .content-container {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Make the container take up the entire viewport height */
+        }
+
+        /* Apply gradient background and size to the content holders */
+        .content-holder {
+            background: linear-gradient(45deg, #65241538, #2b5f96);
+            color: #fff;
+            padding: 20px;
+            width: 750px;
+            height: 650px;
+            margin: 10px;
+            background-image: url('image/asia.jpg');
+        }
+
+        .content-holder-2 {
+            background: linear-gradient(45deg, #3399ff, #22964900);
+            color: #fff;
+            padding: 20px;
+            width: 400px;
+            height: 650px;
+            margin: 10px;
+            background-image: url('image/europe.jpg');
+        }
+
+        .content-holder-3 {
+            background: linear-gradient(45deg, #9b266167, #2a77a4);
+            color: #fff;
+            padding: 20px;
+            width: 750px;
+            height: 650px;
+            margin: 10px;
+            background-image: url('image/america.jpg');
+        }
+
+        /* Add some styling to the text inside the content holders */
+        .content-holder p {
+            font-size: 18px;
+        }
+    

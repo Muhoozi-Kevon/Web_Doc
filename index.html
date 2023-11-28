@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the WEB MUSEUM</title>
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="stylesheet" href="containerstyles.css">
+    <link rel="stylesheet" href="styles4.css">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="buttonstyles.css">
+    <script src="loopedtypewriter.js"></script>
+    <link rel="image/icon" href="logo1.png" type="image/png">
+</head>
+<body>
+<div class="scrollable-container">
+  
+    <!-- Your content goes here -->
+ 
+
+    <section class="video-section">
+        <div class="video-overlay"></div>
+        <video autoplay loop muted>
+            <source src="museum bg2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="content">
+            <!-- Content for the section goes here -->
+             
+
+<h1 class="magnify-heading">
+                            <span>t</span>
+                            <span>h</span>
+                            <span>e</span>
+                            <span> </span>
+                            <span>W</span>
+                            <span>E</span>
+                            <span>B</span>
+                            <span> </span>
+                            <span>M</span>
+                            <span>U</span>
+                            <span>S</span>
+                            <span>E</span>
+                            <span>U</span>
+                            <span>M</span>
+                        </h1>
+                       
+            
+            <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="exihibit.html">Exhibits</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+            <p>Explore our amazing content!</p><br><br<br><br><br><br><br>
+            <p id="typewriter-heading"> </p>
+        </div>
+    </section>
+    <main>
+        <section id="event-promotion">
+            <h2>Upcoming Event</h2>
+            <p>Join us for our special exhibition: "Art Through the Ages." Explore the history of art from different cultures and time periods.</p>
+            <a href="#">Learn More</a>
+        </section>
+        <section class="Latest Discoveries">
+            <h2>The Enthusiasm of the Art! Exploring Ages</h2>
+
+        </section>
+    </main>
+        <!-- Create a flex container to hold the content holders -->
+        <div class="content-container">
+            <div class="content-holder content-holder-1">
+                <div class="image">
+                    <img src="image/asia.jpg" type="image/jpg" width="150" height="100">
+                </div>
+                <h2>Content Holder 1</h2>
+                <p>The Museum of the Future stands as an architectural wonder and an immersive hub, transcending the conventional
+                    boundaries of museums. A marvel in Dubai, it's a testament to cutting-edge design, melding art, science, and technology
+                    to forecast the possibilities of tomorrow. It's not just a repository of artifacts but an experiential journey,
+                    employing AI, AR, VR, and interactive exhibits that delve into sustainable innovations, AI-driven cities, space
+                    exploration, and the fusion of humanity with technology. With its striking torus-shaped structure and an ethos rooted in
+                    innovation, the museum serves as a beacon, sparking curiosity and contemplation about the endless horizons of human
+                    potential in an ever-evolving technological landscape.</p>
+            </div>
+            <div class="content-holder content-holder-2">
+                
+                <div class="image">
+                    <img src="image/europe.jpg" type="image/jpg" width="150" height="100">
+                </div>
+               
+                <h2>Content Holder 2</h2>
+                <p>This is the second content holder with a gradient background.</p>
+            </div>
+            <div class="content-holder content-holder-3">
+                <div class="image">
+<img src="image/america.jpg" type="image/jpg" width="150" height="100">
+                </div>
+                <h2>Content Holder 3</h2>
+                <p>This is the third content holder with a gradient background.</p>
+            </div>
+        </div>
+    <footer>
+        
+        <div class="sketchfab-embed-wrapper"> <iframe title="Earth Globe 🌍" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/98d2b04d46474bafb4250cc75dc583b3/embed?ui_theme=dark"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/earth-globe-98d2b04d46474bafb4250cc75dc583b3?utm_medium=embed&utm_campaign=share-popup&utm_content=98d2b04d46474bafb4250cc75dc583b3" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Earth Globe 🌍 </a> by <a href="https://sketchfab.com/matousekfoto?utm_medium=embed&utm_campaign=share-popup&utm_content=98d2b04d46474bafb4250cc75dc583b3" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> matousekfoto </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=98d2b04d46474bafb4250cc75dc583b3" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+    <p>&copy; 2023 Museum Name. All Rights Reserved.</p>
+    </footer>
+        <div id="response"></div>
+        <script>
+            // Image Slider for Upcoming Events
+        const eventSlider = document.querySelector('.event-promotion');
+        const eventImages = ['event1.jpg', 'event2.jpg', 'event3.jpg']; // Add your image URLs here
+        let currentIndex = 0;
+        
+        function changeEventImage() {
+            eventSlider.style.backgroundImage = `url(${eventImages[currentIndex]})`;
+            currentIndex = (currentIndex + 1) % eventImages.length;
+        }
+        // Change the event image every 5 seconds
+        setInterval(changeEventImage, 5000);
+            <div class="overlay"></div>
+        </script>
+        <!-- Back to Top Button -->
+<button id="back-to-top-btn" class="back-to-top-btn">&#8593; Back to Top</button>
+        <script src="buttonscript1.js"></script>
+    </div>
+
+</body>
+</html>
